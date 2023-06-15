@@ -1,0 +1,28 @@
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book_item {
+    flex-basis: 15%;
+    width: 15%;
+}
+
+.thumb img {
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.thumb strong {
+    margin-top: 20px;
+    display: block;
+}
+
+.thumb span {
+    display: block;
+    text-transform: capitalize;
+    font-style: italic;
+
+}
